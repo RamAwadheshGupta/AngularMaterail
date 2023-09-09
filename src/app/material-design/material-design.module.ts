@@ -6,6 +6,9 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input'
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatDividerModule } from '@angular/material/divider';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { MatGridListModule } from '@angular/material/grid-list';
+
 
 const material = [
   MatButtonModule,
@@ -13,6 +16,8 @@ const material = [
   MatFormFieldModule,
   MatInputModule,
   MatDividerModule,
+  MatProgressSpinnerModule,
+  MatGridListModule,
   MatToolbarModule
 ];
 
